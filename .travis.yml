@@ -3,9 +3,9 @@
 language: python
 
 python:
-  - "3.6"
+  - "3.7"
 
-env: 
+env:
   - TOX_ENV=py36-django-111
   - TOX_ENV=py35-django-111
   - TOX_ENV=py34-django-111
@@ -13,6 +13,9 @@ env:
   - TOX_ENV=py36-django-20
   - TOX_ENV=py35-django-20
   - TOX_ENV=py34-django-20
+  - TOX_ENV=py35-django-21
+  - TOX_ENV=py36-django-21
+  - TOX_ENV=py37-django-21
 
 matrix:
   fast_finish: true
